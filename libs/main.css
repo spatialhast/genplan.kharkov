@@ -1,0 +1,45 @@
+ body {
+     margin: 0;
+     padding: 0;
+ }
+ 
+ html,
+ body,
+ #map {
+     position: absolute;
+     top: 0;
+     bottom: 0;
+     width: 100%;
+     height: 100%;
+ }
+ 
+ input[type="radio"],
+ input[type="checkbox"] {
+     margin: 0;
+ }
+ 
+ .range {
+     position: absolute;
+     width: 99%;
+     left: 0px;
+     right: 0px;
+ }
+ 
+ .opacity-control-div {
+     position: relative;
+     float: right;
+     right: 18px;
+     top: 160px;
+ }
+ 
+ #opacity-control-id {
+     width: 112px;
+ }
+ 
+ .leaflet-top .leaflet-control-zoom {
+     top: 16px;
+ }
+ 
+ .leaflet-top.leaflet-right .leaflet-control-layers {
+     margin-top: 25px;
+ }
